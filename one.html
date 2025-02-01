@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderSummaryCard </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background-color: #c9e0f2;
+        /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:3px solid black;
+       
+    }
+    .box{
+        height:600px;
+        width:400px;
+        background-color:white;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 30px 30x 20px black;
+        gap:25px;
+        
+
+    }
+    .box img{
+        height:180px;
+        width:100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .box2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 5px; */
+        width: 70%;
+    }
+    .box3{
+        height:70px;
+        width:310px;
+        border:1px solid black;
+        border-radius: 20px;
+        display:flex;
+        align-items: center;
+        background-color: rgb(222, 229, 230);
+        /* justify-content:space-between; */
+        padding: 20px;
+        
+        
+    }  
+    .box3 img{
+        height:200%;
+        width:90%;
+        gap:10px;
+    } 
+    
+    
+    .button{
+         margin-top:10px;
+        height:50px;
+        width:310px;
+    border-radius: 20px;
+    background-color: rgb(50, 50, 74);
+    box-shadow: 5px 5px 8px #888888 ;
+    color: white;
+    }
+    .button:hover{
+        transform: scale(1.1);
+    }
+    #cancel{
+       
+       font-size: 1.3rem;
+       text-decoration: none;
+       
+    }
+    .box2 p{
+        padding:15px;
+    }
+  .leftbox{
+    width: 90px;
+    height: 40px;
+    display:flex;
+    flex-direction: column;
+
+    
+    
+    margin-right: 50%;
+
+ 
+  }
+  
+  
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="music1.avif" alt="music">
+            <div class="box2">
+                <h2> Order Of Summary</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus reiciendis voluptas atque corporis! Unde, fugiat.</p>
+            </div>
+            <section >
+                <div class="box3">
+                   <div id="image">
+                    <img src="music-icon.webp" alt="icon">
+                    </div>
+
+                    
+                <div class="leftbox" >
+                    <p>Annual</p>
+                    <p>99.9/year</p>
+                </div>
+                    <a href="#">change</a>
+                </div>
+            </section>
+            <div>
+            <button class="button">proceed to payment</button>
+    </div>
+               <a id="cancel"  href="#">cancel order</a>
+
+
+        </div>
+        
+        
+    </div>
+</body>
+</html>
